@@ -20,3 +20,6 @@ Pubblicare il file.xml, il file.xsl, l'output.html e i file a corredo (css, java
 
 # Esercizi
 [Cliccare qua per gli esercizi del corso di Codifica di Testi](https://github.com/Rosmerade/Codifica-di-Testi-2021-22)
+
+# TEI/text - gerarchia
+![Gerarchia](/Codifica/2022/ProgettoFinale/text-gerarchia.png "text")
