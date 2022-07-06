@@ -25,4 +25,4 @@ Pubblicare il file.xml, il file.xsl, l'output.html e i file a corredo (css, java
 ![TEI](/img/tei.PNG "tei")
 
 # TEI/text - gerarchia
-![Gerarchia](/img/tei-text.PNG "text")
+<img src="/img/tei-text.PNG" width="200" height="100">
