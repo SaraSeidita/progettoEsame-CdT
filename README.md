@@ -10,7 +10,7 @@ Pubblicare il file.xml, il file.xsl, l'output.html e i file a corredo (css, java
 ## Per effettuare la verifica della codifica.xml con Xerces
 > java -cp "./Xerces-J-bin.2.12.1/xerces-2_12_1/*" dom.Counter -v "./codifica.xml"  
 
-# Output della verifica
+### Output della verifica
 > 452;43;0 ms (400 elems, 1049 attrs, 5891 spaces, 19714 chars)
 
 
