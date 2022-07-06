@@ -4,3 +4,6 @@ _Corso di Codifica di Testi_
 Anno accademico 2021/22
 
 # Progetto esame 
+
+# Esercizi
+[Cliccare qua per gli esercizi del corso di Codifica di Testi](https://github.com/Rosmerade/Codifica-di-Testi-2021-22)
