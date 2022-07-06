@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+
+            <!-- blocco titolo -->
+            <titleStmt>
+                <!-- Titoli presi dalla BGE, tradotti in italiano -->
+                <title type="main">Le prime tre conferenze all'Università</title>
+                <title type="sub">Corso d'apertura, novembre 1891</title>
+                <author ref="#FdS" xml:lang="FR">
+                    <persName>Ferdinand de Saussure</persName>
+                </author>
+                <respStmt>
+                    <resp>Responsabilità di</resp>
+                    <name ref="#COD" role="student" type="person">Sara Seidita</name>
+                    <name ref="#PRO" role="teacher" type="person">Angelo Mario Del Grosso</name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- blocco edizione digitale -->
+            <editionStmt>
+                <edition>
+                    <title>Prolusioni 3 - pagine 6-7</title>
+                </edition>
+                <respStmt xml:id="codifica">
+                    <resp>Codifica a cura di</resp>
+                    <name ref="#COD" role="student" type="person">Sara Seidita 579517</name>
+                </respStmt>
+                <respStmt xml:id="coordinazione">
+                    <resp>Progetto coordinato da</resp>
+                    <name ref="#PRO" role="teacher" type="person">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt xml:id="traduzioneItaliana">
+                    <resp>Traduzione italiana a cura di</resp>
+                    <name ref="#TRAD" role="translator" type="person">Emanuele Fadda</name>
+                </respStmt>
+                <respStmt xml:id="trascrizione">
+                    <resp>Trascrizione a cura di</resp>
+                    <name ref="TRAS1" role="transcriber" type="person">Simon Boquet</name>
+                    <name ref="TRAS2" role="transcriber" type="person">Rudolf Engler</name>
+                </respStmt>
+            </editionStmt>
+            
+            <!-- blocco pubblicazione -->
+            <publicationStmt>
+                <publisher>CNR Pisa</publisher>
+                <distributor>Università di Pisa</distributor>
+                <date>2022</date>
+            </publicationStmt>
+
+            <!-- blocco fonte -->
+            <sourceDesc>
+                <!-- bibliografia -->
+                <bibl>
+                    <title xml:lang="fr">Trois premières conférences à l'Université</title>
+                    <date when="1891-11">Novembre 1891</date>
+                    <author ref="#FdS">Ferdinand de Saussure</author>
+                </bibl>
+                <!-- descrizione manoscritto -->
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Biblioteca di Ginevra</institution>
+                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary> 
+                        Appunti per le prime conferenze all’Università di Ginevra, in parte utilizzati per le prime
+                        lezioni del corso di Phonétique du grec et du latin 1891. Probabilmente destinati alla
+                        pubblicazione di una brochure.
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                    <!-- descrizione fisica del manoscritto -->
+                        <objectDesc>
+                            <supportDesc material="paper">
+                                <support>
+                                    <objectType>Appunti</objectType>
+                                    <material>Carta</material>
+                                </support>
+                                <extent>
+                                    <measureGrp unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/">
+                                        <measure quantity="30">Prolusioni 1 - 30 pagine</measure>
+                                        <measure quantity="15">Prolusioni 2 - 15 pagine</measure>
+                                        <measure quantity="22">Prolusioni 3 - 22 pagine</measure>
+                                        <!-- pagine dell'intero manoscritto -->
+                                    </measureGrp>
+                                </extent>               
+                                <condition>
+                                    <p> 
+                                    Manoscritto conservato in buone condizioni
+                                    </p>
+                                </condition>        
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">Scritto in un'unica colonna per pagina</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Prolusioni all'Università di Ginevra</p>
+                            <p>Date delle prime tre lezioni</p>
+                            <origDate when="1891-11-06">16 novembre 1891</origDate>
+                            <origDate when="1891-11-10">10 novembre 1891</origDate>
+                            <origDate when="1891-11-13">13 novembre 1891</origDate>
+                            <origPlace>Ginevra</origPlace>
+                        </origin>
+                    </history>              
+                </msDesc>
+            </sourceDesc>              
+        </fileDesc>
+    </teiHeader>
+
+    <standOff xml:id="info" xml:lang="IT">
+        <listPerson type="respondents">
+            <person xml:id="FdS" sex="M" role="author">
+                <persName xml:lang="FR">
+                    <name ref="FdS">Ferdinand de Saussure</name>
+                </persName>
+                <birth when="1857-11-26"/>
+                <death when="1913-02-22"/>
+                <noteGrp xml:id="FdSnote">
+                    <note source="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure">
+                    Ferdinand de Saussure è nato a Ginevra, 26 novembre 1857 e morto a Vufflens-le-Château, 22 febbraio 1913.
+                    È stato un linguista e semiologo svizzero. È considerato uno dei fondatori della linguistica moderna, 
+                    in particolare di quella branca conosciuta con il nome di strutturalismo.
+                    </note>
+                    <note source="notes">
+                    <!-- appunti personali del CdL di Linguistica Generale -->
+                    È un autore importante per tante cose nella sfera della linguistica, in particolare per l’opera sul "Cours de
+                    Linguistique Generale", opera uscita postuma nel 1916. Con quest’opera si pongono le basi di uno studio
+                    della lingua diverso da quello che si era studiato con Franz Bopp e i suoi successori. Si inizia a comprendere i
+                    fenomeni linguistici studiandoli astraendo dal fattore tempo, dalla diacronia. Con quest’opera e con le sue
+                    scoperte, De Saussure spiega che si può studiare le strutture e i meccanismi che caratterizzano lingua e
+                    linguaggio, quindi non solo la loro evoluzione storica.
+                    Nel 1906-11 introduce proprio dei corsi di linguistica generale, studi che diventano poi oggetto di filologia
+                    saussuriana
+                    </note>
+                    <note source="notes">
+                    Studia a Berlino. È di Ginevra, ma fa gli studi di perfezionamento di linguistica storica a Berlino, con un impostazione ottocentesca dopo il periodo di formazione, insegna all’Università di Parigi.
+                    Va poi all’Università di Ginevra, sua città natale, per insegnare la linguistica così come l’aveva imparata. Ma dal 1906/11 introduce dei corsi particolari, i corsi di linguistica generale. Questi corsi erano seguiti da pochissimi studiosi. 
+                    Mise le sue scoperte e i suoi studi nelle sue opere, ebbe l’originalità di seguire questi corsi con pochi studenti. Sono poi diventati oggetti di ‘filologia saussuriana’, ossia si occupano di restituire l’effettivo testo esposto da de Saussure delle sue lezioni. A questo scopo sono stati ricercati e recuperati gli appunti e manoscritti di questi 4/5 studenti e comparati fra di loro, per dar così luogo alla filologia saussuriana.
+                    Con quest’opera si osserva un importante cambiamento paradigmatico, si passa da una concezione storica a una concezione generale.
+                    </note>
+                </noteGrp>
+            </person>
+        </listPerson>
+        <listOrg xml:lang="FR">
+            <head>Archives</head>
+            <org>
+                <orgName>Bibliothèque de Genève</orgName>
+                <placeName>Genève</placeName>
+                <noteGrp>
+                    <note xml:lang="IT">
+                    Presentazione dell'archivio privato della Biblioteca di Ginevra.
+                    </note>
+                    <note source="https://archives.bge-geneve.ch/n/secteur-des-manuscrits-et-des-archives-privees/n:85">
+                    Créé en 1904, le secteur des manuscrits et des archives privées de la Bibliothèque de Genève a pour 
+                    mission de collecter, inventorier, communiquer, conserver et valoriser les archives de familles et de 
+                    personnalités genevoises, de sociétés savantes, d’entreprises à caractère culturel ou encore tous 
+                    documents manuscrits ayant trait à Genève.
+                    </note>
+                </noteGrp>
+            </org>
+        </listOrg>
+    </standOff>
+
+    <text type="" xml:id="corpoTei" subtype="manuscript">
+        <group> 
+            
+            <group xml:id="francese" xml:lang="FR"> <!-- testo francese delle due pagine -->
+                <head xml:id="txtFr">Pagina 6 - pagina 7 (francese)</head>
+                <text> 
+                    <body>
+                        <div type="text" xml:id="p6">
+                            <pb facs="#page6" xml:id="pag6"/>
+                            <div facs="num6" xml:id="num6">
+                                <p> 
+                                    <num value="6">6</num><pc>.</pc><pc>)</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope1" xml:id="pericope1">
+                                <p>
+                                    Ainsi nous nions <c>-</c> non 
+                                    <choice resp="transcriber">
+                                        <orig>saulent</orig>
+                                        <reg>seulement</reg>
+                                    </choice>
+                                    qu’une <term ref="langue">langue</term> puisse 
+                                    <del rend="strikethrough">
+                                        <gap reason="illegible"/>
+                                        sortir d'une autre<pc>,</pc>
+                                        <gap reason="illegible"/>
+                                        <w cert="low">qu</w>'une langue
+                                        <gap reason="illegible"/>
+                                        <w cert="low">subitement</w>
+                                    </del>
+                                    <term ref="naitre">naître</term> sans 
+                                    <del rend="strikethrough">
+                                        <w><gap reason="illegible"/></w>
+                                    </del>
+                                    être précédée d’une autre<pc>,</pc> <c>-</c> non seulement 
+                                    <del rend="strikethrough"><gap reason="illegible"/></del>
+                                    <add>
+                                        <supplied>
+                                            <choice>
+                                            <abbr> <gap reason="illegible"/></abbr>
+                                            <expan resp="transcriber">en second lieu</expan>
+                                            </choice>
+                                        </supplied>
+                                    </add>
+                                    qu’une <term ref="langue">langue</term> puisse subitement <term ref="naitre">naître</term>
+                                    <del rend="strikethrough">
+                                        <gap reason="illegible"/>
+                                    </del>
+                                    d’une autre<pc>,</pc> mais 
+                                    <supplied>
+                                        <choice>
+                                        <abbr>3 iè <w><gap reason="illegible"/></w></abbr>
+                                        <expan resp="transcriber">troisièmement</expan>
+                                        </choice>
+                                    </supplied>
+                                    même nous nions qu’une <term ref="langue">langue</term> déterminée 
+                                    <del rend="strikethrough">
+                                        <gap reason="illegible"/>
+                                    </del>
+                                    <term ref="naisse">naisse</term> graduellement
+                                    <del rend="strikethrough">
+                                    naitre sortir
+                                    </del>
+                                    d’une autre<pc>,</pc> car il n’y a 
+                                    <add resp="author">
+                                    aucun instant où la <term ref="langue">langue</term>
+                                    soit moins déterminée ni plus déterminée 
+                                    <w><gap reason="illegible"/></w><c>+</c><w><gap reason="illegible"/></w>
+                                    <choice>
+                                        <supplied resp="transcriber"> qu’à un</supplied>
+                                    </choice>
+                                    autre<pc>;</pc>
+                                    </add>
+                                    </p>
+                            </div>
+                            <div facs="pericope2" xml:id="pericope2">
+                                <p>
+                                    <del rend="strikethrough" resp="author"><gap reason="illegible"/></del>
+                                    <add resp="author">il n’y a jamais de <term ref="CarPerm"><unclear>caractères</unclear> permanents</term><pc>,</pc>
+                                    mais seulement</add>
+                                    <supplied><term ref="transitoires">transitoires</term></supplied> et de <supplied>plus</supplied> délimités <supplied>dans</supplied>
+                                    le temps <pc>;</pc>        
+                                </p>
+                            </div>
+                            <div facs="pericope3" xml:id="pericope3">
+                                <p>
+                                    il n’y a que des <term ref="etat">états</term> 
+                                    <term ref="de">de</term> 
+                                    <term ref="langue">langue</term> qui
+                                    sont <term ref="perp">perpétuellement</term> la <term ref="transition">transition</term>
+                                    entre l’<term ref="etat">état</term> de la
+                                    veille et celui du lendemain <pc>;</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope4" xml:id="pericope4">
+                                <p>
+                                    vouloir réunir un
+                                    certain nombre de ces <term ref="etat">états</term> sous 
+                                    <del rend="strikethrough">
+                                        <w><gap reason="illegible"/></w>
+                                    </del>
+                                    un <term ref="nom">nom</term>
+                                    <del rend="strikethrough">comm</del>
+                                    <add>comme</add>
+                                    celui de <term xml:lang="lat">latin</term> ou de <term xml:lang="it">français</term> 
+                                    <del rend="strikethrough">
+                                        <w><gap reason="illegible"/></w>
+                                    </del>
+                                    représente la 
+                                    <choice>
+                                        <abbr resp="author">mè</abbr>
+                                        <expan resp="transcriber">même</expan>
+                                    </choice>
+                                    <choice>
+                                        <abbr resp="author">operati</abbr>
+                                        <expan resp="transcriber"><term ref="operation">opération</term></expan>
+                                    </choice><pc>,</pc> 
+                                    <del resp="author" rend="strikethrough"><w><gap reason="illegible"/></w></del>
+                                    <add resp="author">offre exactement la même <term ref="valeur">valeur</term></add>
+                                    que si nous <term ref="opposons">opposons</term> le 
+                                    <date when="1800">XIX°</date>
+                                    siècle au 
+                                    <date when="1700">XVIII°</date>
+                                    ou au 
+                                    <date when="1100">XII°</date>
+                                    <pc>.</pc>
+                                    <del resp="author" rend="strikethrough">
+                                        au la <w><gap reason="illegible"/></w> de 1890 <gap reason="illegible"/> di 1830<pc>.</pc>
+                                    </del>
+                                </p>
+                            </div>
+                            <div facs="pericope5a" xml:id="pericope5a">
+                                <p> 
+                                    Ce sont de vagues <term ref="points">points</term> 
+                                    <term ref="de">de</term> 
+                                    <term ref="repere">repère</term>
+                                    <pc>,</pc> sans
+                                </p>
+                            </div>
+                        </div>
+
+                        <div type="text" xml:id="p7">
+                            <pb facs="#page7" xml:id="pag7"/>
+                            <div facs="num7" xml:id="num7">
+                                <p> 
+                                    <num value="7">7</num><pc>)</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope5b" xml:id="pericope5b">
+                                <p>
+                                    prétention à évoquer 
+                                    <del resp="author" rend="strikethrough">
+                                    eu nous
+                                    </del>
+                                    <term ref="L">l</term>’<term ref="ide">idée</term> d’un <term ref="ordre">ordre</term> 
+                                    de choses
+                                    <add resp="author">fini</add>
+                                    <del resp="author" rend="strikethrough">
+                                        <gap reason="illegible"/>
+                                        fixe eu <w><gap reason="illegible"/></w> même
+                                        <gap reason="illegible"/>
+                                    </del>
+                                    <pc>,</pc> en=<lb/>=core moins à écarter <term ref="L">l</term>’<term ref="ide">idée</term> 
+                                    de <term ref="L">l</term>’<term ref="ordre">ordre</term> à peine
+                                    <term ref="diff">différent</term> qui précé<lb/>dait et qui suivra<pc>.</pc><pc>-</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope6" xml:id="pericope6">
+                                <p>
+                                    Il est im=<lb/>=possible 
+                                    <add resp="author">ici</add> 
+                                    de ne pas remarquer que le
+                                    <term ref="linguiste">linguiste</term> qui s’occupe de <term xml:lang="gr">grec</term> 
+                                    <term ref="contemp">contem<lb/>porain</term>
+                                    <del resp="author" rend="strikethrough">
+                                        <w><gap reason="illegible"/></w>
+                                        <w cert="low">fas</w> un seul
+                                        <gap reason="illegible"/>
+                                    </del>
+                                    <add resp="author">comme 
+                                    <persName>M. <name type="person">Jean</name> <surname>Psichari</surname></persName>
+                                    </add>
+                                    jouit 
+                                    <del resp="author" rend="strikethrough">
+                                        du <w cert="low">singutur</w> bènè=<lb/>-fici
+                                    </del>
+                                    <add resp="author"> 
+                                    de <unclear reason="faded">l’avantage</unclear> 
+                                    <unclear reason="faded">appréciable</unclear><pc>,</pc>
+                                    </add>
+                                    <add resp="transcriber">du</add>
+                                    <add resp="author">
+                                    reprivilège 
+                                    </add>
+                                    de n’avoir pas même à com<lb/>menter 
+                                    <del>
+                                        la 
+                                        <gap reason="illegible"/>
+                                        une
+                                    </del>
+                                    <add resp="author">une</add> 
+                                    de ces 
+                                    <del resp="author" rend="strikethrough">
+                                        <w cert="low">desp</w>
+                                        <note>Sembra stesse scrivendo la parola che c'è dopo, 
+                                        ma che abbia sbagliato a scrivere una "p" al posto della "a". 
+                                        Motivo, quindi, della cancellatura.
+                                        </note>
+                                    </del>
+                                    désastreuses <term ref="distinctions">distinctions</term> <term ref="nominales">nominales</term> comme celle
+                                    de <term xml:lang="fr">français</term> et de <term xml:lang="lat">latin</term> <pc>;</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope7" xml:id="pericope7">
+                                <p>
+                                dès sa 
+                                <choice>
+                                    <abbr resp="author">per<pc>=</pc></abbr>
+                                    <expan resp="transcriber">première</expan>
+                                </choice> 
+                                leçon<pc>,</pc> on le com<lb/>prend quand il part du <term xml:lang="gr">grec</term> 
+                                <term ref="parle">parlé</term>
+                                au <date when="-0600">VII°
+                                siècle avant l’ère</date><pc>,</pc> pour aboutir
+                                au <term xml:lang="gr">grec</term> 
+                                <del resp="author" rend="strikethrough">
+                                    parle au <gap reason="illegible"/>
+                                </del>
+                                <add>
+                                <term ref="actuel">actuel</term>, avec un intervalle de
+                                2600 ans
+                                </add> 
+                                <choice>
+                                    <orig resp="author">;</orig>
+                                    <sic resp="transcriber">:</sic>
+                                </choice> 
+                                simplement parce que les 
+                                <choice>
+                                    <abbr resp="author">2</abbr>
+                                    <expan resp="transcriber">deux</expan>
+                                </choice> 
+                                choses sont appelées <term xml:lang="gr">grec</term> <add resp="transcriber">,</add> 
+                                quoiqu’elles <term ref="diff">diffèrent</term> entre elles
+                                <del resp="author" rend="strikethrough">
+                                    <gap reason="illegible"/>
+                                    que le <w><gap reason="illegible"/></w>
+                                </del>
+                                autant, si ce n’est <add resp="author">beaucoup</add> plus en bien des points,
+                                que le <term xml:lang="fr">français</term>      
+                                <supplied>«</supplied> diffère du <term xml:lang="lat">latin</term> <supplied>»</supplied>                              
+                                <pc>.</pc>
+                                </p>
+                            </div>
+                            <div facs="pericope8a" xml:id="pericope8a">
+                                <p>
+                                Et
+                                </p>
+                            </div>
+                        </div>
+                       
+                    </body>
+                </text>
+            </group>
+
+            <group xml:id="italiano" xml:lang="IT"> <!-- testo tradotto in italiano -->
+                <head xml:id="txtIt">Pagina 6 - pagina 7 (italiano)</head>
+                <text>
+                    <body>
+                    
+                        <div type="translate" xml:id="page6ita">    
+                            <ab xml:id="perip1" corresp="#pericope1">
+                                Così noi neghiamo non solamente
+                                che una lingua possa nascere senza essere preceduta
+                                da un’altra, non soltanto in secondo luogo che una
+                                lingua possa nascere d’un tratto da un’altra, ma in
+                                terzo luogo anche che una lingua determinata nasca
+                                gradualmente da un’altra, perché non c’è nessun
+                                momento in cui la lingua sia meno determinata o più
+                                determinata che in un qualsiasi altro;
+                            </ab>
+                            <ab xml:id="perip2" corresp="#pericope2">non vi sono
+                                mai caratteri permanenti, ma solamente transitori e
+                                in più delimitati nel tempo;
+                            </ab> 
+                            <ab xml:id="perip3" corresp="#pericope3">
+                                non ci sono che stati
+                                di lingua che sono perpetuamente la transizione tra
+                                lo stato del giorno prima e quello del giorno dopo;
+                            </ab>
+                            <ab xml:id="perip4" corresp="#pericope4">
+                                voler riunire un certo numero di tali stati sotto un
+                                nome come quello di latino o di francese
+                                rappresenta la stessa operazione, offre esattamente
+                                lo stesso valore che se opponessimo il XIX secolo,
+                                come un tutto, al XVIII o al XII.
+                            </ab> 
+                            <ab xml:id="perip5a" corresp="#pericope5a">
+                                Sono vaghi
+                                punti di riferimento, senza
+                            </ab>      
+                        </div>
+
+                        <div type="translate" xml:id="page7ita">
+                            <ab xml:id="perip5b" corresp="#pericope5b">
+                                la pretesa d’evocare
+                                l’idea di un ordine di cose finito, e ancor meno di
+                                scartare l’idea dell’ordine appena differente che è
+                                venuto prima e che verrà poi.
+                            </ab>
+                            <ab xml:id="perip6" corresp="#pericope6">
+                                È impossibile qui non osservare che il linguista
+                                che si occupa di greco contemporaneo, come J.
+                                Psichari, gode del vantaggio considerevole, del
+                                privilegio di non dover nemmeno commentare una
+                                di queste disastrose distinzioni nominali come
+                                quella di francese e latino;
+                            </ab>
+                            <ab xml:id="perip7" corresp="#pericope7">
+                                lo si capisce dalla sua
+                                prima lezione, quando parte dal greco parlato nel
+                                VII sec. a.C. per finire col greco attuale, con un
+                                intervallo di 2600 anni; semplicemente perché le
+                                due cose sono chiamate greco, sebbene esse
+                                differiscano tra loro altrettanto, se non anche di più
+                                in vari punti, rispetto a quanto il francese “differisce
+                                dal latino”
+                            </ab>
+                            <ab xml:id="perip8a" corresp="#pericope8a">
+                                E
+                            </ab>
+                        </div>
+                    </body>
+                </text>
+            </group>
+        </group>
+    </text>
+
+    <facsimile>
+        <surface xml:id="page67" start="#pag6">
+            <graphic url="./img/ms_fr_03951_01_3_f007_006.jpg" width='6048px' height='4032px'/>
+            <zone xml:id="numero6" start="#num6" ulx="3042" uly="604" lrx="3279" lry="847" >
+                <figure>
+                    <graphic url="./img/zone/numero6.jpg"/>
+                    <head>
+                    Numero 6
+                    </head>
+                    <figDesc>
+                    Il numero 6 è seguito da un punto e un segno grafico che indica l'inizio
+                    della pagina 6.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per1" start="#pericope1" ulx="3213" uly="681" lrx="4785" lry="2085">
+            <zone corresp="#per1" ulx="2844" uly="2097" lrx="3361" lry="2593" >
+                <figure>
+                    <graphic url="./img/zone/pericope1a.jpg"/>
+                    <graphic url="./img/zone/pericope1b.jpg"/>
+                    <head>
+                    Pericope 1 - pagina 6
+                    </head>
+                    <figDesc>
+                    La pericope 1 presenta un testo francese scritto a mano da Ferdinand de Saussure.
+                    Ci sono alcune frasi cancellate dall'autore.
+                    C'è anche un'aggiunta probabilmente aggiunta in un secondo momento.
+                    </figDesc>
+                </figure>
+            </zone>
+            </zone>
+            <zone xml:id="per2" start="#pericope2" ulx="3201" uly="2036" lrx="4761" lry="2348">
+                <figure>
+                    <graphic url="./img/zone/pericope2.jpg"/>
+                    <head>
+                    Pericope 2 - pagina 6
+                    </head>
+                    <figDesc>
+                    Pericope 2 che presenta varie cancellature fatte dall'autore
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per3" start="#pericope3" ulx="2913" uly="2192" lrx="4753" lry="2718">
+                <figure>
+                    <graphic url="./img/zone/pericope3.jpg"/>
+                    <head>
+                    Pericope 3 - pagina 6
+                    </head>
+                    <figDesc>
+                    In questa pericope troviamo il continuo degli appunti di De Saussure.
+                    Non sono presenti cancellature.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per4" start="#pericope4" ulx="2857" uly="2530" lrx="4759" lry="3496">
+                <figure>
+                    <graphic url="./img/zone/pericope4.jpg"/>
+                    <head>
+                    Pericope 4 - pagina 6
+                    </head>
+                    <figDesc>
+                    Pericope 4. Presenti varie cancellature e aggiunte.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per5a" start="#pericope5a" ulx="3197" uly="3496" lrx="4731" lry="3624">
+                <figure>
+                    <graphic url="./img/zone/pericope5a.jpg"/>
+                    <head>
+                    Pericope 5a - fine pagina 6
+                    </head>
+                    <figDesc>
+                    Testo che procede nella pagina seguente, la pagina 7.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="numero7" start="#num7" ulx="977" uly="604" lrx="1331" lry="888">
+                <figure>
+                    <graphic url="./img/zone/numero7.jpg"/>
+                    <head>
+                    Indica la pagina numero 7
+                    </head>
+                    <figDesc>
+                    Il numero 7, seguito da un segno grafico, indica l'inizio della pagina 7.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per5b" start="#pericope5b" ulx="955" uly="664" lrx="2887" lry="1414">
+                <figure>
+                    <graphic url="./img/zone/pericope5b.jpg"/>
+                    <head>
+                    Pericope 5b - inizio pagina 7 
+                    </head>
+                    <figDesc>
+                    Continuo della pericope 5, nella pagina 7.
+                    Son presenti anche qua cancellature e una parola aggiunta (forse) in un secondo momento.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per6" start="#pericope6" ulx="936" uly="1308" lrx="2865" lry="2550">
+                <figure>
+                    <graphic url="./img/zone/pericope6.jpg"/>
+                    <head>
+                    Pericope 6 - pagina 7 
+                    </head>
+                    <figDesc>
+                    Pericope 6.
+                    Il testo francese presenta cancellature, note aggiuntive, due parole quasi sbiadite.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per7" start="#pericope7" ulx="924" uly="2409" lrx="2829" lry="3570">
+                <figure>
+                    <graphic url="./img/zone/pericope7.jpg"/>
+                    <head>
+                    Pericope 7 
+                    </head>
+                    <figDesc>
+                    Pericope 7, presenti cancellature e note aggiuntive dall'autore.
+                    </figDesc>
+                </figure>
+            </zone>
+            <zone xml:id="per8a" start="#pericope8a" ulx="2562" uly="3396" lrx="2790" lry="3531">
+                <figure>
+                    <graphic url="./img/zone/pericope8a.jpg"/>
+                    <head>
+                    Pericope 8a - fine pagina 7
+                    </head>
+                    <figDesc>
+                    Questa pericope presenta un solo un termine, mentre il resto si trova nella pagina successiva.
+                    </figDesc>
+                </figure>
+            </zone>
+        </surface>
+    </facsimile>
+</TEI>

@@ -1,0 +1,363 @@
+
+body {
+    background-color: rgb(204, 139, 139);
+}
+
+/* header */
+
+header {
+    margin: auto;
+    width: 40%;
+    border: 2px double rgb(32, 34, 32);
+    padding: 10px;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+/* immagini */
+
+.img {
+    width: 600px;
+    display: table;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 1%;
+}
+
+#imgFdS {
+    float:left;
+    margin: 1%;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 1%;
+}
+
+.imgBdg {
+    float: left;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 1%;
+    width: 300px;
+}
+
+.imgZone {
+    display: table;
+    float: center;
+    width: 200px;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+.imgZone2 {
+    display: table;
+    float: center;
+    width: 500px;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+
+.imgArc {
+    float: center;
+    border: 2px double rgb(32, 34, 32);
+    background-color: white;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* edizione digitale */
+
+#info {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#publisher {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.publisher {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-style: italic;
+}
+
+#respName {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-style: italic;
+}
+
+#resp {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+
+#bibl {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    margin-top: 1%;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#descrizione {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+#sommario {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+#desc {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+#history {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+/* sezione descrizione manoscritto */
+
+
+
+/* sezione biografia FdS */
+
+#FdS {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(32, 34, 32);
+    margin-bottom: 0.5%;
+}
+
+#notes {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    padding: 1%;
+}
+
+#dates {
+    margin: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(32, 34, 32);
+}
+
+/* sezione BdG */
+
+#BdG {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    color: rgb(41, 37, 37);
+    float: center;
+    text-align: center;
+}
+
+#BdGHead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    margin-bottom: 1%;
+    font-size: 12px;
+    float: center;
+    text-align: center;
+}
+
+.info {
+    text-align: right;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+#notesArc {
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    padding: 1%;
+    float: center;
+    text-align: center;
+    width: 50%;
+}
+
+/* sezione pagine */
+
+#pag6img {
+    display: table;
+    margin: auto;
+}
+
+#txt6 {
+    display: table;
+    margin: auto;
+}
+
+#txt7 {
+    display: table;
+    margin: auto;
+}
+
+#pag {
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+#pagTitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 2%;
+    color: rgb(41, 37, 37);
+}
+
+/* sezione zone */
+#zone {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 1%;
+    color: black;
+    font-size: 18px;
+}
+
+#Zona {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    float: center;
+    display: table;
+    width: 48%;
+    border: 2px double rgb(32, 34, 32);
+    margin-bottom: 1%;
+    background-color: white;
+    padding: 1%
+}
+
+/* titoli */
+
+#titolo {
+    color: rgb(102, 30, 30);
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: rgb(41, 37, 37);
+}
+
+/* MENU */
+
+.menu {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+} 
+
+.menuClick {
+    color: rgb(73, 7, 7);
+}
+
+.menu button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+  
+.menu button:hover {
+    background-color: #ddd;
+}
+
+.menu button.active {
+    background-color: #ccc;
+}
+
+.contenuto {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: black;
+}
