@@ -26,3 +26,6 @@ Pubblicare il file.xml, il file.xsl, l'output.html e i file a corredo (css, java
 
 # TEI/text - gerarchia
 <img src="/img/tei-text.PNG" width="635" height="252">
+
+# TEI/facsimile - gerarchia
+<img src="/img/tei-facsimile.PNG>
