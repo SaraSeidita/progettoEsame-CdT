@@ -22,10 +22,10 @@ Pubblicare il file.xml, il file.xsl, l'output.html e i file a corredo (css, java
 [Cliccare qua per gli esercizi del corso di Codifica di Testi](https://github.com/Rosmerade/Codifica-di-Testi-2021-22)
 
 # TEI - struttura documento
-<img src="/img/tei.PNG" width="209" height="390">
+<img src="/img/tei.PNG" alt="TEI" width="209" height="390">
 
 # TEI/text - gerarchia
-<img src="/img/tei-text.PNG" width="635" height="252">
+<img src="/img/tei-text.PNG" alt="text" width="635" height="252">
 
 # TEI/facsimile - gerarchia
-<img src="/img/tei-facsimile.PNG>
+<img src="/img/tei-facsimile.PNG" alt="Facsimile">
